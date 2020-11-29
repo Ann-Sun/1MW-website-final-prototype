@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.header{
+    height:50px;
+    background:#eccb53;
+    padding:0px 50px;
+}
+.header ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.header ul li{
+    float:right;
+    height:50px;
+    line-height: 50px;
+    padding:0px 25px;
+}
+.header ul li a{
+    text-decoration: underline;
+    color: #000;
+}
+#logo{
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.one h2{
+    margin-top: 0px;
+    font-weight: bold;
+    font-family: auto;
+}
+.one h2 .sp1{
+    color:#2fcba7;
+}
+.one h2 .sp2{
+    color:#4c6fd1;
+}
+
+
+/* tow */
+.tow{
+    overflow: hidden;
+    margin-top:100px;
+}
+.tow h1{
+    color: #2fcba7;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    border-bottom: 4px solid #d5d72c;
+    width: 380px;
+    margin-bottom: 20px;
+}
+.tow h3{
+    font-weight: bold;
+    color: #a09f9f;
+    padding: 0px;
+    margin: 0px;
+}
+.tow .detail{
+    margin-top:50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tow .detail span{
+    color: #2fcba7;
+    text-decoration: underline;
+}
+
+.tow img{
+    opacity: 0.4;
+}
+
+/* three */
+.three img{
+        height: 500px;
+        /* background: url(../imgs/p3.jpg) no-repeat; */
+        /* overflow: hidden; */
+        opacity: 0.2;
+        position: absolute;
+}
+.three h1{
+    color: #2fcba7;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.three h1 span{
+    color: #000;
+}
+.three h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5c5c5c;
+    font-family: ui-monospace;
+}
+.three .detail{
+    margin-top:50px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.four{
+    margin-top:25px;
+}
+.four h1{
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+}
+.four h1 .sp1{
+    font-size: 105px;
+    color: #2fcba7;
+}
+.four h1 .sp2{
+    color: #eccb53;
+}
+.four .detail{
+    margin-top:50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.five{
+    margin-top:25px;
+    margin-bottom:50px;
+}
+.five h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+    color: #2fcba7;
+    text-align: center;
+}
+
+.five .singn{
+    overflow: hidden;
+}
+.five .singn a:hover{
+    text-decoration: none;
+}
+.five .singn a{
+    float: right;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    background: #eccb53;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: emoji;
+    margin-right: 20px;
+    padding: 0px 20px;
+}
+.five .Donate{
+    overflow: hidden;
+}
+.five .Donate a:hover{
+    text-decoration:none;
+}
+.five .Donate a{
+    float: left;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    background: #8cd8de;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: emoji;
+    padding: 0px 20px;
+}
+
+.five .with{
+    font-weight: bold;
+    font-size: 25px;
+    margin:25px 0;
+}
+.five .with span{
+    background:rgb(71, 71, 71);
+    color: #eccb53;
+    font-size: 30px;
+    margin:0px 1px;
+}
+
+
+
+.login_header {
+    background:url('../imgs/p2.jpeg') no-repeat;
+    width: 100%;
+    background-size: cover;
+    height:200px;
+    padding:0px;
+    margin:0px;
+    background-position-y: -468px;
+    opacity: 0.4;
+}
+.box2{
+    width:1200px;
+    margin:0 auto;
+}
+.login h1{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding: 25px 0px;
+}
+.login{
+    font-size: 20px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.login .txt{
+    width: 485px;
+}
+#btn_login{
+    padding: 5px 70px;
+    border-radius: 10px;
+    border: none;
+    background: #3df8f0;
+    color: #fff;
+    font-weight: bold;
+}
+#back{
+    position: absolute;
+    left: 30px;
+    top: -160px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #000;
+}
+#back:hover{
+    text-decoration: none;
+}
